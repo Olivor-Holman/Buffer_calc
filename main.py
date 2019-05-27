@@ -54,7 +54,7 @@ while True:
 
 
 
-print("Amounts of stock solution needed for your final buffer:\n", vol_list)
+print("Amounts of stock solution needed for your final buffer in ml:\n", vol_list)
 
 if sum(arb_vols) > k:
     print("Warning: amount of each solution needed is in excess of your final concentration. Consider using more concentrated stock solutions.")
